@@ -30,4 +30,12 @@
 {
     return RGB(243, 242, 240);
 }
+
+/**
+ *  4.字体橙色
+ */
++ (UIColor *)colorTextOrange
+{
+    return RGB(253, 122, 64);
+}
 @end

@@ -23,4 +23,9 @@
  *  3.控制器的背景色
  */
 + (UIColor *)colorControllerBackground;
+
+/**
+ *  4.字体橙色
+ */
++ (UIColor *)colorTextOrange;
 @end

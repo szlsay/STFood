@@ -17,9 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    // 1.设置界面
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [TabBarController new];
     [self.window makeKeyAndVisible];
+    
+    // 2.设置网络
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedInstance];
+    [config setBaseUrl:@"http://apis.juhe.cn/cook/query.php"];
     
     return YES;
 }

@@ -28,6 +28,7 @@
 		778BD6591C50D7AD0007A1E1 /* STFoodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6581C50D7AD0007A1E1 /* STFoodUITests.m */; };
 		779718A31C51C01800C773B9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779718A21C51C01800C773B9 /* MainController.m */; };
 		779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779718A61C51CA8A00C773B9 /* TabBarController.m */; };
+		779A93D51C52B29C006310A9 /* UIButton+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A93D41C52B29C006310A9 /* UIButton+ST.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		779718A41C51CA0700C773B9 /* Food.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.pch; sourceTree = "<group>"; };
 		779718A51C51CA8A00C773B9 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		779718A61C51CA8A00C773B9 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		779A93D31C52B29C006310A9 /* UIButton+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ST.h"; sourceTree = "<group>"; };
+		779A93D41C52B29C006310A9 /* UIButton+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ST.m"; sourceTree = "<group>"; };
 		BDCF24F3DCC95F68970F3B43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +132,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		77417F6A1C521B8A0062D68B /* Assets(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */,
+			);
+			name = "Assets(资源)";
+			sourceTree = "<group>";
+		};
+		77417F6B1C521BE90062D68B /* System(系统) */ = {
+			isa = PBXGroup;
+			children = (
+				778BD6331C50D7AC0007A1E1 /* AppDelegate.h */,
+				778BD6341C50D7AC0007A1E1 /* AppDelegate.m */,
+				77417F521C5208A60062D68B /* NavigationController.h */,
+				77417F531C5208A60062D68B /* NavigationController.m */,
+				779718A51C51CA8A00C773B9 /* TabBarController.h */,
+				779718A61C51CA8A00C773B9 /* TabBarController.m */,
+				77417F411C51FAD70062D68B /* TabBar.json */,
+				77417F4F1C5200760062D68B /* TabBar.h */,
+				77417F501C5200760062D68B /* TabBar.m */,
+			);
+			name = "System(系统)";
+			sourceTree = "<group>";
+		};
+		77417F6C1C521BF80062D68B /* Others(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */,
+				779718A41C51CA0700C773B9 /* Food.pch */,
+				778BD6311C50D7AC0007A1E1 /* main.m */,
+				778BD6441C50D7AC0007A1E1 /* Info.plist */,
+			);
+			name = "Others(其他)";
+			sourceTree = "<group>";
+		};
 		778BD6241C50D7AC0007A1E1 = {
 			isa = PBXGroup;
 			children = (
@@ -164,20 +202,9 @@
 		778BD6301C50D7AC0007A1E1 /* Supporting(重要文件) */ = {
 			isa = PBXGroup;
 			children = (
-				778BD6331C50D7AC0007A1E1 /* AppDelegate.h */,
-				778BD6341C50D7AC0007A1E1 /* AppDelegate.m */,
-				77417F521C5208A60062D68B /* NavigationController.h */,
-				77417F531C5208A60062D68B /* NavigationController.m */,
-				779718A51C51CA8A00C773B9 /* TabBarController.h */,
-				779718A61C51CA8A00C773B9 /* TabBarController.m */,
-				77417F411C51FAD70062D68B /* TabBar.json */,
-				77417F4F1C5200760062D68B /* TabBar.h */,
-				77417F501C5200760062D68B /* TabBar.m */,
-				779718A41C51CA0700C773B9 /* Food.pch */,
-				778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */,
-				778BD6441C50D7AC0007A1E1 /* Info.plist */,
-				778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */,
-				778BD6311C50D7AC0007A1E1 /* main.m */,
+				77417F6B1C521BE90062D68B /* System(系统) */,
+				77417F6A1C521B8A0062D68B /* Assets(资源) */,
+				77417F6C1C521BF80062D68B /* Others(其他) */,
 			);
 			name = "Supporting(重要文件)";
 			sourceTree = "<group>";
@@ -393,6 +420,8 @@
 		7797189D1C51BFEA00C773B9 /* Category(类别) */ = {
 			isa = PBXGroup;
 			children = (
+				779A93D31C52B29C006310A9 /* UIButton+ST.h */,
+				779A93D41C52B29C006310A9 /* UIButton+ST.m */,
 			);
 			path = "Category(类别)";
 			sourceTree = "<group>";
@@ -621,6 +650,7 @@
 				779718A31C51C01800C773B9 /* MainController.m in Sources */,
 				77417F4B1C51FBFD0062D68B /* CartController.m in Sources */,
 				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
+				779A93D51C52B29C006310A9 /* UIButton+ST.m in Sources */,
 				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
 				77417F511C5200760062D68B /* TabBar.m in Sources */,
 				77417F601C52103D0062D68B /* STConst.m in Sources */,

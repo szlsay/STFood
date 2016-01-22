@@ -12,4 +12,9 @@
 + (STBarButtonItem *)barButtonItemWithImageName:(NSString *)imageName
                                          target:(id)target
                                          action:(SEL)action;
+
++ (STBarButtonItem *)barButtonItemWithImageName:(NSString *)imageName
+                                          title:(NSString *)title
+                                         target:(id)target
+                                         action:(SEL)action;
 @end

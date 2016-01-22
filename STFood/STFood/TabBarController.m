@@ -10,7 +10,7 @@
 #import "NavigationController.h"
 #import "TabBar.h"
 @interface TabBarController ()
-@property (nonatomic, strong, nullable)NSArray<TabBar *> *arrayTabBar; //
+@property (nonatomic, strong)NSArray<TabBar *> *arrayTabBar; 
 @end
 
 @implementation TabBarController
