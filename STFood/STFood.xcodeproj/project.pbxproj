@@ -15,7 +15,7 @@
 		77417F4E1C51FC090062D68B /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F4D1C51FC090062D68B /* MyController.m */; };
 		77417F511C5200760062D68B /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F501C5200760062D68B /* TabBar.m */; };
 		77417F541C5208A60062D68B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F531C5208A60062D68B /* NavigationController.m */; };
-		77417F561C520A860062D68B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77417F551C520A860062D68B /* README.md */; };
+		77417F5A1C520E090062D68B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77417F591C520E090062D68B /* README.md */; };
 		778BD6321C50D7AC0007A1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6311C50D7AC0007A1E1 /* main.m */; };
 		778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6341C50D7AC0007A1E1 /* AppDelegate.m */; };
 		778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */; };
@@ -59,7 +59,7 @@
 		77417F501C5200760062D68B /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
 		77417F521C5208A60062D68B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		77417F531C5208A60062D68B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		77417F551C520A860062D68B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77417F591C520E090062D68B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		778BD62D1C50D7AC0007A1E1 /* STFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778BD6311C50D7AC0007A1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		778BD6331C50D7AC0007A1E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		778BD6241C50D7AC0007A1E1 = {
 			isa = PBXGroup;
 			children = (
-				77417F551C520A860062D68B /* README.md */,
+				77417F591C520E090062D68B /* README.md */,
 				778BD62F1C50D7AC0007A1E1 /* STFood */,
 				778BD64C1C50D7AD0007A1E1 /* STFoodTests */,
 				778BD6571C50D7AD0007A1E1 /* STFoodUITests */,
@@ -601,7 +601,7 @@
 				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
 				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
 				77417F511C5200760062D68B /* TabBar.m in Sources */,
-				77417F561C520A860062D68B /* README.md in Sources */,
+				77417F5A1C520E090062D68B /* README.md in Sources */,
 				77417F481C51FBEB0062D68B /* MallController.m in Sources */,
 				779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */,
 				77417F541C5208A60062D68B /* NavigationController.m in Sources */,
