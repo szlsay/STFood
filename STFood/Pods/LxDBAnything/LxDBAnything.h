@@ -42,12 +42,12 @@ static NSString * LxXmlFromObject(NSObject * object);
 static NSString * LxViewHierarchyDescription(UIView * view);
 
 #ifdef DEBUG
-    #define LxPrintf(fmt, ...)  printf("📍%s + %d🎈 %s\n", __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__]UTF8String])
+    #define LxPrintf(fmt, ...)  printf("🐶%s + %d🐵 %s\n", __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__]UTF8String])
     #define LxDBAnyVar(var)     LxPrintf(@"%s = %@", #var, LxBox(var))
-    #define LxPrintAnything(x)  printf("📍%s + %d🎈 %s\n", __PRETTY_FUNCTION__, __LINE__, #x)
-    #define LxDBObjectAsJson(obj)   printf("📍%s + %d🎈 %s\n", __PRETTY_FUNCTION__, __LINE__, __lx_json_db_object_string(obj).UTF8String)
-    #define LxDBObjectAsXml(obj)    printf("📍%s + %d🎈 %s\n", __PRETTY_FUNCTION__, __LINE__, __lx_xml_db_object_string(obj).UTF8String)
-    #define LxDBViewHierarchy(view) printf("📍%s + %d🎈%s =\n%s\n", __PRETTY_FUNCTION__, __LINE__, #view, LxViewHierarchyDescription(view).UTF8String)
+    #define LxPrintAnything(x)  printf("🐶%s + %d🐵 %s\n", __PRETTY_FUNCTION__, __LINE__, #x)
+    #define LxDBObjectAsJson(obj)   printf("🐶%s + %d🐵 %s\n", __PRETTY_FUNCTION__, __LINE__, __lx_json_db_object_string(obj).UTF8String)
+    #define LxDBObjectAsXml(obj)    printf("🐶%s + %d🐵 %s\n", __PRETTY_FUNCTION__, __LINE__, __lx_xml_db_object_string(obj).UTF8String)
+    #define LxDBViewHierarchy(view) printf("🐶%s + %d🐵%s =\n%s\n", __PRETTY_FUNCTION__, __LINE__, #view, LxViewHierarchyDescription(view).UTF8String)
 #else
     #define LxPrintf(fmt, ...)
     #define LxDBAnyVar(any)
