@@ -50,9 +50,9 @@
 {
     // 1.设置子控制器的默认设置
     UIViewController *controller = [NSClassFromString(childController) new];
-    controller.title = title; // 同时设置tabbar和navigationBar的文字
-    [controller.view setBackgroundColor:[UIColor redColor]];
-    //    [controller.view setBackgroundColor:[XCFColor colorControllerBackground]];
+    [controller setTitle:title]; // 同时设置tabbar和navigationBar的文字
+    [controller.view setBackgroundColor:[STColor colorControllerBackground]];
+    [controller setAutomaticallyAdjustsScrollViewInsets:NO];
     
     // 2.设置子控制器的图片
     controller.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -60,10 +60,10 @@
     
     // 3.设置文字的样式
     NSMutableDictionary *dictionaryText = [NSMutableDictionary dictionary];
-    dictionaryText[NSForegroundColorAttributeName] = [UIColor blueColor];
+    dictionaryText[NSForegroundColorAttributeName] = [STColor colorTabBarNormal];
     NSMutableDictionary *dictionaryTextSelect = [NSMutableDictionary dictionary];
     
-    dictionaryTextSelect[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    dictionaryTextSelect[NSForegroundColorAttributeName] = [STColor colorTabBarSelected];
     [controller.tabBarItem setTitleTextAttributes:dictionaryText forState:UIControlStateNormal];
     [controller.tabBarItem setTitleTextAttributes:dictionaryTextSelect forState:UIControlStateSelected];
     

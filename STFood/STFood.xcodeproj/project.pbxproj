@@ -15,7 +15,11 @@
 		77417F4E1C51FC090062D68B /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F4D1C51FC090062D68B /* MyController.m */; };
 		77417F511C5200760062D68B /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F501C5200760062D68B /* TabBar.m */; };
 		77417F541C5208A60062D68B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F531C5208A60062D68B /* NavigationController.m */; };
-		77417F5A1C520E090062D68B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 77417F591C520E090062D68B /* README.md */; };
+		77417F5D1C520FE80062D68B /* STColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F5C1C520FE80062D68B /* STColor.m */; };
+		77417F601C52103D0062D68B /* STConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F5F1C52103D0062D68B /* STConst.m */; };
+		77417F631C52104D0062D68B /* STUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F621C52104D0062D68B /* STUI.m */; };
+		77417F661C52142C0062D68B /* STBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F651C52142C0062D68B /* STBarButtonItem.m */; };
+		77417F691C5216EE0062D68B /* SortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F681C5216EE0062D68B /* SortController.m */; };
 		778BD6321C50D7AC0007A1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6311C50D7AC0007A1E1 /* main.m */; };
 		778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6341C50D7AC0007A1E1 /* AppDelegate.m */; };
 		778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */; };
@@ -59,7 +63,16 @@
 		77417F501C5200760062D68B /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
 		77417F521C5208A60062D68B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		77417F531C5208A60062D68B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		77417F591C520E090062D68B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77417F5B1C520FE80062D68B /* STColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STColor.h; sourceTree = "<group>"; };
+		77417F5C1C520FE80062D68B /* STColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STColor.m; sourceTree = "<group>"; };
+		77417F5E1C52103D0062D68B /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConst.h; sourceTree = "<group>"; };
+		77417F5F1C52103D0062D68B /* STConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConst.m; sourceTree = "<group>"; };
+		77417F611C52104D0062D68B /* STUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUI.h; sourceTree = "<group>"; };
+		77417F621C52104D0062D68B /* STUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUI.m; sourceTree = "<group>"; };
+		77417F641C52142C0062D68B /* STBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBarButtonItem.h; sourceTree = "<group>"; };
+		77417F651C52142C0062D68B /* STBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBarButtonItem.m; sourceTree = "<group>"; };
+		77417F671C5216EE0062D68B /* SortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortController.h; sourceTree = "<group>"; };
+		77417F681C5216EE0062D68B /* SortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortController.m; sourceTree = "<group>"; };
 		778BD62D1C50D7AC0007A1E1 /* STFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778BD6311C50D7AC0007A1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		778BD6331C50D7AC0007A1E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,7 +132,6 @@
 		778BD6241C50D7AC0007A1E1 = {
 			isa = PBXGroup;
 			children = (
-				77417F591C520E090062D68B /* README.md */,
 				778BD62F1C50D7AC0007A1E1 /* STFood */,
 				778BD64C1C50D7AD0007A1E1 /* STFoodTests */,
 				778BD6571C50D7AD0007A1E1 /* STFoodUITests */,
@@ -281,6 +293,8 @@
 			children = (
 				779718A11C51C01800C773B9 /* MainController.h */,
 				779718A21C51C01800C773B9 /* MainController.m */,
+				77417F671C5216EE0062D68B /* SortController.h */,
+				77417F681C5216EE0062D68B /* SortController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -368,9 +382,9 @@
 		7797189C1C51BFEA00C773B9 /* Common(常用数据) */ = {
 			isa = PBXGroup;
 			children = (
+				7797189F1C51BFEA00C773B9 /* Library(第三方库) */,
 				7797189D1C51BFEA00C773B9 /* Category(类别) */,
 				7797189E1C51BFEA00C773B9 /* Config(配置) */,
-				7797189F1C51BFEA00C773B9 /* Library(第三方库) */,
 				779718A01C51BFEA00C773B9 /* Tool(工具) */,
 			);
 			path = "Common(常用数据)";
@@ -386,6 +400,10 @@
 		7797189E1C51BFEA00C773B9 /* Config(配置) */ = {
 			isa = PBXGroup;
 			children = (
+				77417F5E1C52103D0062D68B /* STConst.h */,
+				77417F5F1C52103D0062D68B /* STConst.m */,
+				77417F611C52104D0062D68B /* STUI.h */,
+				77417F621C52104D0062D68B /* STUI.m */,
 			);
 			path = "Config(配置)";
 			sourceTree = "<group>";
@@ -400,6 +418,10 @@
 		779718A01C51BFEA00C773B9 /* Tool(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				77417F5B1C520FE80062D68B /* STColor.h */,
+				77417F5C1C520FE80062D68B /* STColor.m */,
+				77417F641C52142C0062D68B /* STBarButtonItem.h */,
+				77417F651C52142C0062D68B /* STBarButtonItem.m */,
 			);
 			path = "Tool(工具)";
 			sourceTree = "<group>";
@@ -601,10 +623,14 @@
 				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
 				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
 				77417F511C5200760062D68B /* TabBar.m in Sources */,
-				77417F5A1C520E090062D68B /* README.md in Sources */,
+				77417F601C52103D0062D68B /* STConst.m in Sources */,
+				77417F691C5216EE0062D68B /* SortController.m in Sources */,
+				77417F5D1C520FE80062D68B /* STColor.m in Sources */,
 				77417F481C51FBEB0062D68B /* MallController.m in Sources */,
 				779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */,
+				77417F631C52104D0062D68B /* STUI.m in Sources */,
 				77417F541C5208A60062D68B /* NavigationController.m in Sources */,
+				77417F661C52142C0062D68B /* STBarButtonItem.m in Sources */,
 				778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */,
 				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
 			);

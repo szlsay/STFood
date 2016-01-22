@@ -7,7 +7,7 @@
 //
 
 #import "MainController.h"
-
+#import "SortController.h"
 @interface MainController ()
 
 @end
@@ -15,15 +15,24 @@
 @implementation MainController
 
 #pragma mark - --- lift cycle 生命周期 ---
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor redColor]];
+    self.navigationItem.leftBarButtonItem = [STBarButtonItem barButtonItemWithImageName:@"navi_item_catalogs"
+                                                                                 target:self
+                                                                                 action:@selector(gotoSortController)];
 }
+
 #pragma mark - --- delegate 视图委托 ---
 
 #pragma mark - --- event response 事件相应 ---
+
+- (void)gotoSortController
+{
+    [self.navigationController pushViewController:[SortController new] animated:YES];
+}
 
 #pragma mark - --- private methods 私有方法 ---
 
