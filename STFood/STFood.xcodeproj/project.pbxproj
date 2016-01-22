@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778BD6321C50D7AC0007A1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6311C50D7AC0007A1E1 /* main.m */; };
+		778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6341C50D7AC0007A1E1 /* AppDelegate.m */; };
+		778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */; };
+		778BD6401C50D7AC0007A1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */; };
+		778BD64E1C50D7AD0007A1E1 /* STFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD64D1C50D7AD0007A1E1 /* STFoodTests.m */; };
+		778BD6591C50D7AD0007A1E1 /* STFoodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6581C50D7AD0007A1E1 /* STFoodUITests.m */; };
+		779718A31C51C01800C773B9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779718A21C51C01800C773B9 /* MainController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		778BD64A1C50D7AD0007A1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778BD6251C50D7AC0007A1E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778BD62C1C50D7AC0007A1E1;
+			remoteInfo = STFood;
+		};
+		778BD6551C50D7AD0007A1E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778BD6251C50D7AC0007A1E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778BD62C1C50D7AC0007A1E1;
+			remoteInfo = STFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		778BD62D1C50D7AC0007A1E1 /* STFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		778BD6311C50D7AC0007A1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		778BD6331C50D7AC0007A1E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		778BD6341C50D7AC0007A1E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		778BD63D1C50D7AC0007A1E1 /* STFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STFood.xcdatamodel; sourceTree = "<group>"; };
+		778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		778BD6441C50D7AC0007A1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778BD6491C50D7AD0007A1E1 /* STFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		778BD64D1C50D7AD0007A1E1 /* STFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFoodTests.m; sourceTree = "<group>"; };
+		778BD64F1C50D7AD0007A1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778BD6541C50D7AD0007A1E1 /* STFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		778BD6581C50D7AD0007A1E1 /* STFoodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFoodUITests.m; sourceTree = "<group>"; };
+		778BD65A1C50D7AD0007A1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779718A11C51C01800C773B9 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		779718A21C51C01800C773B9 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778BD62A1C50D7AC0007A1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6461C50D7AD0007A1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6511C50D7AD0007A1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778BD6241C50D7AC0007A1E1 = {
+			isa = PBXGroup;
+			children = (
+				778BD62F1C50D7AC0007A1E1 /* STFood */,
+				778BD64C1C50D7AD0007A1E1 /* STFoodTests */,
+				778BD6571C50D7AD0007A1E1 /* STFoodUITests */,
+				778BD62E1C50D7AC0007A1E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778BD62E1C50D7AC0007A1E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778BD62D1C50D7AC0007A1E1 /* STFood.app */,
+				778BD6491C50D7AD0007A1E1 /* STFoodTests.xctest */,
+				778BD6541C50D7AD0007A1E1 /* STFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778BD62F1C50D7AC0007A1E1 /* STFood */ = {
+			isa = PBXGroup;
+			children = (
+				779718871C51BF2C00C773B9 /* Classes(工程分类) */,
+				7797189C1C51BFEA00C773B9 /* Common(常用数据) */,
+				778BD6301C50D7AC0007A1E1 /* Supporting(重要文件) */,
+			);
+			path = STFood;
+			sourceTree = "<group>";
+		};
+		778BD6301C50D7AC0007A1E1 /* Supporting(重要文件) */ = {
+			isa = PBXGroup;
+			children = (
+				778BD6331C50D7AC0007A1E1 /* AppDelegate.h */,
+				778BD6341C50D7AC0007A1E1 /* AppDelegate.m */,
+				778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */,
+				778BD6441C50D7AC0007A1E1 /* Info.plist */,
+				778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */,
+				778BD6311C50D7AC0007A1E1 /* main.m */,
+			);
+			name = "Supporting(重要文件)";
+			sourceTree = "<group>";
+		};
+		778BD64C1C50D7AD0007A1E1 /* STFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				778BD64D1C50D7AD0007A1E1 /* STFoodTests.m */,
+				778BD64F1C50D7AD0007A1E1 /* Info.plist */,
+			);
+			path = STFoodTests;
+			sourceTree = "<group>";
+		};
+		778BD6571C50D7AD0007A1E1 /* STFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				778BD6581C50D7AD0007A1E1 /* STFoodUITests.m */,
+				778BD65A1C50D7AD0007A1E1 /* Info.plist */,
+			);
+			path = STFoodUITests;
+			sourceTree = "<group>";
+		};
+		779718871C51BF2C00C773B9 /* Classes(工程分类) */ = {
+			isa = PBXGroup;
+			children = (
+				779718881C51BF2C00C773B9 /* Cart(购物车) */,
+				7797188C1C51BF2C00C773B9 /* Events(圈圈) */,
+				779718901C51BF2C00C773B9 /* Main(首页) */,
+				779718941C51BF2C00C773B9 /* Mall(优食汇) */,
+				779718981C51BF2C00C773B9 /* My(我的) */,
+			);
+			path = "Classes(工程分类)";
+			sourceTree = "<group>";
+		};
+		779718881C51BF2C00C773B9 /* Cart(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				779718891C51BF2C00C773B9 /* Controller */,
+				7797188A1C51BF2C00C773B9 /* Model */,
+				7797188B1C51BF2C00C773B9 /* View */,
+			);
+			path = "Cart(购物车)";
+			sourceTree = "<group>";
+		};
+		779718891C51BF2C00C773B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7797188A1C51BF2C00C773B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7797188B1C51BF2C00C773B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7797188C1C51BF2C00C773B9 /* Events(圈圈) */ = {
+			isa = PBXGroup;
+			children = (
+				7797188D1C51BF2C00C773B9 /* Controller */,
+				7797188E1C51BF2C00C773B9 /* Model */,
+				7797188F1C51BF2C00C773B9 /* View */,
+			);
+			path = "Events(圈圈)";
+			sourceTree = "<group>";
+		};
+		7797188D1C51BF2C00C773B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7797188E1C51BF2C00C773B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7797188F1C51BF2C00C773B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		779718901C51BF2C00C773B9 /* Main(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				779718911C51BF2C00C773B9 /* Controller */,
+				779718921C51BF2C00C773B9 /* Model */,
+				779718931C51BF2C00C773B9 /* View */,
+			);
+			path = "Main(首页)";
+			sourceTree = "<group>";
+		};
+		779718911C51BF2C00C773B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				779718A11C51C01800C773B9 /* MainController.h */,
+				779718A21C51C01800C773B9 /* MainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		779718921C51BF2C00C773B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		779718931C51BF2C00C773B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		779718941C51BF2C00C773B9 /* Mall(优食汇) */ = {
+			isa = PBXGroup;
+			children = (
+				779718951C51BF2C00C773B9 /* Controller */,
+				779718961C51BF2C00C773B9 /* Model */,
+				779718971C51BF2C00C773B9 /* View */,
+			);
+			path = "Mall(优食汇)";
+			sourceTree = "<group>";
+		};
+		779718951C51BF2C00C773B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		779718961C51BF2C00C773B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		779718971C51BF2C00C773B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		779718981C51BF2C00C773B9 /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				779718991C51BF2C00C773B9 /* Controller */,
+				7797189A1C51BF2C00C773B9 /* Model */,
+				7797189B1C51BF2C00C773B9 /* View */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		779718991C51BF2C00C773B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7797189A1C51BF2C00C773B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7797189B1C51BF2C00C773B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7797189C1C51BFEA00C773B9 /* Common(常用数据) */ = {
+			isa = PBXGroup;
+			children = (
+				7797189D1C51BFEA00C773B9 /* Category(类别) */,
+				7797189E1C51BFEA00C773B9 /* Config(配置) */,
+				7797189F1C51BFEA00C773B9 /* Library(第三方库) */,
+				779718A01C51BFEA00C773B9 /* Tool(工具) */,
+			);
+			path = "Common(常用数据)";
+			sourceTree = "<group>";
+		};
+		7797189D1C51BFEA00C773B9 /* Category(类别) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category(类别)";
+			sourceTree = "<group>";
+		};
+		7797189E1C51BFEA00C773B9 /* Config(配置) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Config(配置)";
+			sourceTree = "<group>";
+		};
+		7797189F1C51BFEA00C773B9 /* Library(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Library(第三方库)";
+			sourceTree = "<group>";
+		};
+		779718A01C51BFEA00C773B9 /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778BD62C1C50D7AC0007A1E1 /* STFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778BD65D1C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFood" */;
+			buildPhases = (
+				778BD6291C50D7AC0007A1E1 /* Sources */,
+				778BD62A1C50D7AC0007A1E1 /* Frameworks */,
+				778BD62B1C50D7AC0007A1E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STFood;
+			productName = STFood;
+			productReference = 778BD62D1C50D7AC0007A1E1 /* STFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		778BD6481C50D7AD0007A1E1 /* STFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778BD6601C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFoodTests" */;
+			buildPhases = (
+				778BD6451C50D7AD0007A1E1 /* Sources */,
+				778BD6461C50D7AD0007A1E1 /* Frameworks */,
+				778BD6471C50D7AD0007A1E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778BD64B1C50D7AD0007A1E1 /* PBXTargetDependency */,
+			);
+			name = STFoodTests;
+			productName = STFoodTests;
+			productReference = 778BD6491C50D7AD0007A1E1 /* STFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		778BD6531C50D7AD0007A1E1 /* STFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778BD6631C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFoodUITests" */;
+			buildPhases = (
+				778BD6501C50D7AD0007A1E1 /* Sources */,
+				778BD6511C50D7AD0007A1E1 /* Frameworks */,
+				778BD6521C50D7AD0007A1E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778BD6561C50D7AD0007A1E1 /* PBXTargetDependency */,
+			);
+			name = STFoodUITests;
+			productName = STFoodUITests;
+			productReference = 778BD6541C50D7AD0007A1E1 /* STFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778BD6251C50D7AC0007A1E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ST;
+				TargetAttributes = {
+					778BD62C1C50D7AC0007A1E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z25J3BA353;
+					};
+					778BD6481C50D7AD0007A1E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z25J3BA353;
+						TestTargetID = 778BD62C1C50D7AC0007A1E1;
+					};
+					778BD6531C50D7AD0007A1E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z25J3BA353;
+						TestTargetID = 778BD62C1C50D7AC0007A1E1;
+					};
+				};
+			};
+			buildConfigurationList = 778BD6281C50D7AC0007A1E1 /* Build configuration list for PBXProject "STFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 778BD6241C50D7AC0007A1E1;
+			productRefGroup = 778BD62E1C50D7AC0007A1E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778BD62C1C50D7AC0007A1E1 /* STFood */,
+				778BD6481C50D7AD0007A1E1 /* STFoodTests */,
+				778BD6531C50D7AD0007A1E1 /* STFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778BD62B1C50D7AC0007A1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BD6401C50D7AC0007A1E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6471C50D7AD0007A1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6521C50D7AD0007A1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778BD6291C50D7AC0007A1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779718A31C51C01800C773B9 /* MainController.m in Sources */,
+				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
+				778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */,
+				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6451C50D7AD0007A1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BD64E1C50D7AD0007A1E1 /* STFoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778BD6501C50D7AD0007A1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778BD6591C50D7AD0007A1E1 /* STFoodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		778BD64B1C50D7AD0007A1E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778BD62C1C50D7AC0007A1E1 /* STFood */;
+			targetProxy = 778BD64A1C50D7AD0007A1E1 /* PBXContainerItemProxy */;
+		};
+		778BD6561C50D7AD0007A1E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778BD62C1C50D7AC0007A1E1 /* STFood */;
+			targetProxy = 778BD6551C50D7AD0007A1E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		778BD65B1C50D7AD0007A1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		778BD65C1C50D7AD0007A1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778BD65E1C50D7AD0007A1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = STFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		778BD65F1C50D7AD0007A1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = STFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		778BD6611C50D7AD0007A1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STFood.app/STFood";
+			};
+			name = Debug;
+		};
+		778BD6621C50D7AD0007A1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STFood.app/STFood";
+			};
+			name = Release;
+		};
+		778BD6641C50D7AD0007A1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STFood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		778BD6651C50D7AD0007A1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STFood;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778BD6281C50D7AC0007A1E1 /* Build configuration list for PBXProject "STFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BD65B1C50D7AD0007A1E1 /* Debug */,
+				778BD65C1C50D7AD0007A1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778BD65D1C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BD65E1C50D7AD0007A1E1 /* Debug */,
+				778BD65F1C50D7AD0007A1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778BD6601C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BD6611C50D7AD0007A1E1 /* Debug */,
+				778BD6621C50D7AD0007A1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778BD6631C50D7AD0007A1E1 /* Build configuration list for PBXNativeTarget "STFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778BD6641C50D7AD0007A1E1 /* Debug */,
+				778BD6651C50D7AD0007A1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				778BD63D1C50D7AC0007A1E1 /* STFood.xcdatamodel */,
+			);
+			currentVersion = 778BD63D1C50D7AC0007A1E1 /* STFood.xcdatamodel */;
+			path = STFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 778BD6251C50D7AC0007A1E1 /* Project object */;
+}
