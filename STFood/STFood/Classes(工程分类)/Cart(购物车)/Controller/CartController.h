@@ -1,5 +1,5 @@
 //
-//  TabBarController.h
+//  CartController.h
 //  STFood
 //
 //  Created by https://github.com/STShenZhaoliang/STFood on 16/1/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TabBarController : UITabBarController
+@interface CartController : UIViewController
 
 @end

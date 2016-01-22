@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		21C20911046943DD26738372 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCF24F3DCC95F68970F3B43 /* libPods.a */; };
+		77417F421C51FAD70062D68B /* TabBar.json in Resources */ = {isa = PBXBuildFile; fileRef = 77417F411C51FAD70062D68B /* TabBar.json */; };
+		77417F451C51FBC00062D68B /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F441C51FBC00062D68B /* EventsController.m */; };
+		77417F481C51FBEB0062D68B /* MallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F471C51FBEB0062D68B /* MallController.m */; };
+		77417F4B1C51FBFD0062D68B /* CartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F4A1C51FBFD0062D68B /* CartController.m */; };
+		77417F4E1C51FC090062D68B /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F4D1C51FC090062D68B /* MyController.m */; };
+		77417F511C5200760062D68B /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F501C5200760062D68B /* TabBar.m */; };
+		77417F541C5208A60062D68B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F531C5208A60062D68B /* NavigationController.m */; };
 		778BD6321C50D7AC0007A1E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6311C50D7AC0007A1E1 /* main.m */; };
 		778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778BD6341C50D7AC0007A1E1 /* AppDelegate.m */; };
 		778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778BD63C1C50D7AC0007A1E1 /* STFood.xcdatamodeld */; };
@@ -38,6 +45,19 @@
 /* Begin PBXFileReference section */
 		19CBD985BBF6F0E337C2FD75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2F8978882A6BC260AD3273C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		77417F411C51FAD70062D68B /* TabBar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TabBar.json; sourceTree = "<group>"; };
+		77417F431C51FBC00062D68B /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
+		77417F441C51FBC00062D68B /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
+		77417F461C51FBEB0062D68B /* MallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallController.h; sourceTree = "<group>"; };
+		77417F471C51FBEB0062D68B /* MallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallController.m; sourceTree = "<group>"; };
+		77417F491C51FBFD0062D68B /* CartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartController.h; sourceTree = "<group>"; };
+		77417F4A1C51FBFD0062D68B /* CartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartController.m; sourceTree = "<group>"; };
+		77417F4C1C51FC090062D68B /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		77417F4D1C51FC090062D68B /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		77417F4F1C5200760062D68B /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		77417F501C5200760062D68B /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		77417F521C5208A60062D68B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		77417F531C5208A60062D68B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		778BD62D1C50D7AC0007A1E1 /* STFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778BD6311C50D7AC0007A1E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		778BD6331C50D7AC0007A1E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,8 +151,13 @@
 			children = (
 				778BD6331C50D7AC0007A1E1 /* AppDelegate.h */,
 				778BD6341C50D7AC0007A1E1 /* AppDelegate.m */,
+				77417F521C5208A60062D68B /* NavigationController.h */,
+				77417F531C5208A60062D68B /* NavigationController.m */,
 				779718A51C51CA8A00C773B9 /* TabBarController.h */,
 				779718A61C51CA8A00C773B9 /* TabBarController.m */,
+				77417F411C51FAD70062D68B /* TabBar.json */,
+				77417F4F1C5200760062D68B /* TabBar.h */,
+				77417F501C5200760062D68B /* TabBar.m */,
 				779718A41C51CA0700C773B9 /* Food.pch */,
 				778BD63F1C50D7AC0007A1E1 /* Assets.xcassets */,
 				778BD6441C50D7AC0007A1E1 /* Info.plist */,
@@ -163,10 +188,10 @@
 		779718871C51BF2C00C773B9 /* Classes(工程分类) */ = {
 			isa = PBXGroup;
 			children = (
-				779718881C51BF2C00C773B9 /* Cart(购物车) */,
-				7797188C1C51BF2C00C773B9 /* Events(圈圈) */,
 				779718901C51BF2C00C773B9 /* Main(首页) */,
+				7797188C1C51BF2C00C773B9 /* Events(圈圈) */,
 				779718941C51BF2C00C773B9 /* Mall(优食汇) */,
+				779718881C51BF2C00C773B9 /* Cart(购物车) */,
 				779718981C51BF2C00C773B9 /* My(我的) */,
 			);
 			path = "Classes(工程分类)";
@@ -185,6 +210,8 @@
 		779718891C51BF2C00C773B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77417F491C51FBFD0062D68B /* CartController.h */,
+				77417F4A1C51FBFD0062D68B /* CartController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +243,8 @@
 		7797188D1C51BF2C00C773B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77417F431C51FBC00062D68B /* EventsController.h */,
+				77417F441C51FBC00062D68B /* EventsController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +309,8 @@
 		779718951C51BF2C00C773B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77417F461C51FBEB0062D68B /* MallController.h */,
+				77417F471C51FBEB0062D68B /* MallController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -311,6 +342,8 @@
 		779718991C51BF2C00C773B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77417F4C1C51FC090062D68B /* MyController.h */,
+				77417F4D1C51FC090062D68B /* MyController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -486,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				778BD6401C50D7AC0007A1E1 /* Assets.xcassets in Resources */,
+				77417F421C51FAD70062D68B /* TabBar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,9 +592,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77417F4E1C51FC090062D68B /* MyController.m in Sources */,
 				779718A31C51C01800C773B9 /* MainController.m in Sources */,
+				77417F4B1C51FBFD0062D68B /* CartController.m in Sources */,
 				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
+				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
+				77417F511C5200760062D68B /* TabBar.m in Sources */,
+				77417F481C51FBEB0062D68B /* MallController.m in Sources */,
 				779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */,
+				77417F541C5208A60062D68B /* NavigationController.m in Sources */,
 				778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */,
 				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
 			);
@@ -685,6 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/ST/STFood/STFood/STFood/Food.pch;
 				INFOPLIST_FILE = STFood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -700,6 +741,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/ST/STFood/STFood/STFood/Food.pch;
 				INFOPLIST_FILE = STFood/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

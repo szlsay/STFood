@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainController.h"
+#import "TabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [MainController new];
+    self.window.rootViewController = [TabBarController new];
     [self.window makeKeyAndVisible];
     
     return YES;

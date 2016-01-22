@@ -1,26 +1,21 @@
 //
-//  MainController.m
+//  EventsController.m
 //  STFood
 //
 //  Created by https://github.com/STShenZhaoliang/STFood on 16/1/22.
 //  Copyright © 2016年 ST. All rights reserved.
 //
 
-#import "MainController.h"
+#import "EventsController.h"
 
-@interface MainController ()
+@interface EventsController ()
 
 @end
 
-@implementation MainController
+@implementation EventsController
 
 #pragma mark - --- lift cycle 生命周期 ---
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    [self.view setBackgroundColor:[UIColor redColor]];
-}
+
 #pragma mark - --- delegate 视图委托 ---
 
 #pragma mark - --- event response 事件相应 ---

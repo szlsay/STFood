@@ -1,0 +1,15 @@
+ [
+  {"title" : "首页", "imageName" : "tab_icon_cookbook_normal", "imageSelectName" : "tab_icon_cookbook_hl",
+  "controllerName"  :"MainController"},
+  
+  {"title" : "圈圈", "imageName" : "tab_icon_events_normal", "imageSelectName" : "tab_icon_events_hl",
+  "controllerName" : "EventsController"},
+  
+  {"title" : "优食汇", "imageName" : "tab_icon_mall_normal", "imageSelectName" : "tab_icon_mall_hl",
+  "controllerName" : "MallController"},
+  
+  {"title" : "购物车", "imageName" : "tab_icon_cart_normal", "imageSelectName" : "tab_icon_cart_hl",
+  "controllerName" : "CartController"},
+  
+  {"title" : "我的", "imageName" : "tab_icon_mine_normal", "imageSelectName" : "tab_icon_mine_hl",
+  "controllerName" : "MyController"}]
