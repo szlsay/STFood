@@ -4,6 +4,9 @@
 ## 第二周
 
 ### 2016-01-25 编写首页的网络和界面搭建
+使用MJExtension时，建议安装最新的“3.0.10”，否则没法转换NSNumber等相关问题
+[使用将JSON格式化输出为模型的属性Model插件](https://github.com/EnjoySR/ESJsonFormat-Xcode)<br /> 这个Xcode插件可以生成model文件，缺点是json对象的一旦复杂，就缺少文件，不过已经减少很多的手写Model
+
 
 ## 第一周
 
