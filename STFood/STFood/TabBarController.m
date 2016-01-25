@@ -88,7 +88,7 @@
         
         NSMutableArray *arrayTabBar = [NSMutableArray array];
         for (NSDictionary *dictionary in arrayData) {
-            TabBar *tabBar = [TabBar objectWithKeyValues:dictionary];
+            TabBar *tabBar = [TabBar mj_objectWithKeyValues:dictionary];
             [arrayTabBar addObject:tabBar];
         }
         _arrayTabBar = arrayTabBar;

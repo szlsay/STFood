@@ -23,6 +23,9 @@
 		773C153B1C5605A600EDAB68 /* RecipeHomeTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C153A1C5605A600EDAB68 /* RecipeHomeTags.m */; };
 		773C153E1C5606FA00EDAB68 /* RecipeHomeM.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C153D1C5606FA00EDAB68 /* RecipeHomeM.m */; };
 		773C15411C5607B300EDAB68 /* RecipeHomeIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15401C5607B300EDAB68 /* RecipeHomeIs.m */; };
+		773C15441C56172A00EDAB68 /* STCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15431C56172A00EDAB68 /* STCell.m */; };
+		773C15471C561B9F00EDAB68 /* MainHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15461C561B9F00EDAB68 /* MainHeaderCell.m */; };
+		773C154A1C56271300EDAB68 /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15491C56271300EDAB68 /* UIView+ST.m */; };
 		77417F421C51FAD70062D68B /* TabBar.json in Resources */ = {isa = PBXBuildFile; fileRef = 77417F411C51FAD70062D68B /* TabBar.json */; };
 		77417F451C51FBC00062D68B /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F441C51FBC00062D68B /* EventsController.m */; };
 		77417F481C51FBEB0062D68B /* MallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F471C51FBEB0062D68B /* MallController.m */; };
@@ -102,6 +105,12 @@
 		773C153D1C5606FA00EDAB68 /* RecipeHomeM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeM.m; sourceTree = "<group>"; };
 		773C153F1C5607B300EDAB68 /* RecipeHomeIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeIs.h; sourceTree = "<group>"; };
 		773C15401C5607B300EDAB68 /* RecipeHomeIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeIs.m; sourceTree = "<group>"; };
+		773C15421C56172A00EDAB68 /* STCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCell.h; sourceTree = "<group>"; };
+		773C15431C56172A00EDAB68 /* STCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCell.m; sourceTree = "<group>"; };
+		773C15451C561B9F00EDAB68 /* MainHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainHeaderCell.h; sourceTree = "<group>"; };
+		773C15461C561B9F00EDAB68 /* MainHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainHeaderCell.m; sourceTree = "<group>"; };
+		773C15481C56271300EDAB68 /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
+		773C15491C56271300EDAB68 /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
 		77417F411C51FAD70062D68B /* TabBar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TabBar.json; sourceTree = "<group>"; };
 		77417F431C51FBC00062D68B /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
 		77417F441C51FBC00062D68B /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
@@ -439,6 +448,8 @@
 		779718931C51BF2C00C773B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				773C15451C561B9F00EDAB68 /* MainHeaderCell.h */,
+				773C15461C561B9F00EDAB68 /* MainHeaderCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -525,6 +536,8 @@
 			children = (
 				779A93D31C52B29C006310A9 /* UIButton+ST.h */,
 				779A93D41C52B29C006310A9 /* UIButton+ST.m */,
+				773C15481C56271300EDAB68 /* UIView+ST.h */,
+				773C15491C56271300EDAB68 /* UIView+ST.m */,
 			);
 			path = "Category(类别)";
 			sourceTree = "<group>";
@@ -554,6 +567,8 @@
 			children = (
 				77417F5B1C520FE80062D68B /* STColor.h */,
 				77417F5C1C520FE80062D68B /* STColor.m */,
+				773C15421C56172A00EDAB68 /* STCell.h */,
+				773C15431C56172A00EDAB68 /* STCell.m */,
 				77417F641C52142C0062D68B /* STBarButtonItem.h */,
 				77417F651C52142C0062D68B /* STBarButtonItem.m */,
 			);
@@ -795,6 +810,7 @@
 				77417F601C52103D0062D68B /* STConst.m in Sources */,
 				773C15311C55FD1300EDAB68 /* RecipeHomeFts.m in Sources */,
 				773C15321C55FD1300EDAB68 /* RecipeHomeRr.m in Sources */,
+				773C154A1C56271300EDAB68 /* UIView+ST.m in Sources */,
 				773C152F1C55FD1300EDAB68 /* RecipeHomeResult.m in Sources */,
 				77A72AD71C55C46E009BC281 /* SortResult.m in Sources */,
 				77417F691C5216EE0062D68B /* SortController.m in Sources */,
@@ -814,6 +830,8 @@
 				773C152D1C55FD1300EDAB68 /* RecipeHomeList.m in Sources */,
 				773C152E1C55FD1300EDAB68 /* RecipeHomeModel.m in Sources */,
 				773C153E1C5606FA00EDAB68 /* RecipeHomeM.m in Sources */,
+				773C15471C561B9F00EDAB68 /* MainHeaderCell.m in Sources */,
+				773C15441C56172A00EDAB68 /* STCell.m in Sources */,
 				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

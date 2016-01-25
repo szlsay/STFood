@@ -8,9 +8,15 @@
 
 #import "MainController.h"
 #import "SortController.h"
+
 #import "RecipeHomeModel.h"
 #import "MainApi.h"
-@interface MainController ()
+
+#import "MainHeaderCell.h"
+
+@interface MainController ()<UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong, nullable)UITableView *tableView; //
 @property (nonatomic, strong, nullable)RecipeHomeModel *model; //
 @end
 
@@ -25,12 +31,53 @@
     self.navigationItem.leftBarButtonItem = [STBarButtonItem barButtonItemWithImageName:@"navi_item_catalogs"
                                                                                  target:self
                                                                                  action:@selector(gotoSortController)];
-//    [self setupDishHome];
     
-    NSLog(@"%s, %@", __FUNCTION__, self.model);
+    [self.view addSubview:self.tableView];
 }
 
 #pragma mark - --- delegate 视图委托 ---
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 50;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MainHeaderCell *cell = [MainHeaderCell cellWithTableView:tableView];
+    [cell setModel:self.model];
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return (ScreenWidth - 2*STMargin)/ STRatioImage;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 0.01;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return STMargin;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    return [UIView new];
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return [UIView new];
+}
 
 #pragma mark - --- event response 事件相应 ---
 
@@ -53,6 +100,24 @@
 }
 
 #pragma mark - --- getters and setters 属性 ---
+
+- (UITableView *)tableView
+{
+    if (!_tableView) {
+        CGFloat tableX = 0;
+        CGFloat tableY = STNavigationBarY;
+        CGFloat tableW = ScreenWidth - 2*tableX;
+        CGFloat tableH = ScreenHeight - tableY - STControlSystemHeight;
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(tableX, tableY, tableW, tableH)
+                                                 style:UITableViewStylePlain];
+        [_tableView setDelegate:self];
+        [_tableView setDataSource:self];
+        [_tableView setBackgroundColor:[UIColor clearColor]];
+        [_tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    }
+    return _tableView;
+}
+
 - (RecipeHomeModel *)model
 {
     if (!_model) {

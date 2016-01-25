@@ -37,7 +37,7 @@
         NSString *path = [[NSBundle mainBundle]pathForResource:@"Sort" ofType:@"json"];
         NSData *data = [NSData dataWithContentsOfFile:path options:NSDataReadingMappedIfSafe error:nil];
         NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        _model = [SortModel objectWithKeyValues:dictionary];
+        _model = [SortModel mj_objectWithKeyValues:dictionary];
     }
     return _model;
 }
