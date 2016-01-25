@@ -8,6 +8,8 @@
 
 #import "MainController.h"
 #import "SortController.h"
+
+#import "MainApi.h"
 @interface MainController ()
 
 @end
@@ -23,6 +25,7 @@
     self.navigationItem.leftBarButtonItem = [STBarButtonItem barButtonItemWithImageName:@"navi_item_catalogs"
                                                                                  target:self
                                                                                  action:@selector(gotoSortController)];
+    [self setupDishHome];
 }
 
 #pragma mark - --- delegate 视图委托 ---
@@ -35,6 +38,17 @@
 }
 
 #pragma mark - --- private methods 私有方法 ---
+
+- (void)setupDishHome
+{
+    MainApi *api = [[MainApi alloc]initWithUserid:@"0"];
+    [api startWithCompletionBlockWithSuccess:^(YTKBaseRequest *request) {
+        NSLog(@"%s, %@", __FUNCTION__, request.responseJSONObject);
+    } failure:^(YTKBaseRequest *request) {
+        NSLog(@"%s, %@", __FUNCTION__, request);
+    }];
+    
+}
 
 #pragma mark - --- getters and setters 属性 ---
 

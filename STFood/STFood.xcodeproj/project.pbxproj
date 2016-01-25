@@ -29,6 +29,13 @@
 		779718A31C51C01800C773B9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779718A21C51C01800C773B9 /* MainController.m */; };
 		779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779718A61C51CA8A00C773B9 /* TabBarController.m */; };
 		779A93D51C52B29C006310A9 /* UIButton+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 779A93D41C52B29C006310A9 /* UIButton+ST.m */; };
+		77A72AC61C55ACB5009BC281 /* STInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72AC51C55ACB5009BC281 /* STInfo.m */; };
+		77A72AC91C55B284009BC281 /* MainApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72AC81C55B284009BC281 /* MainApi.m */; };
+		77A72ACB1C55C314009BC281 /* Sort.json in Resources */ = {isa = PBXBuildFile; fileRef = 77A72ACA1C55C314009BC281 /* Sort.json */; };
+		77A72AD51C55C46E009BC281 /* SortCatalogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72ACE1C55C46E009BC281 /* SortCatalogs.m */; };
+		77A72AD61C55C46E009BC281 /* SortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72AD01C55C46E009BC281 /* SortModel.m */; };
+		77A72AD71C55C46E009BC281 /* SortResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72AD21C55C46E009BC281 /* SortResult.m */; };
+		77A72AD81C55C46E009BC281 /* SortTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A72AD41C55C46E009BC281 /* SortTags.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +101,19 @@
 		779718A61C51CA8A00C773B9 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		779A93D31C52B29C006310A9 /* UIButton+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ST.h"; sourceTree = "<group>"; };
 		779A93D41C52B29C006310A9 /* UIButton+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ST.m"; sourceTree = "<group>"; };
+		77A72AC41C55ACB5009BC281 /* STInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STInfo.h; sourceTree = "<group>"; };
+		77A72AC51C55ACB5009BC281 /* STInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STInfo.m; sourceTree = "<group>"; };
+		77A72AC71C55B284009BC281 /* MainApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainApi.h; sourceTree = "<group>"; };
+		77A72AC81C55B284009BC281 /* MainApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainApi.m; sourceTree = "<group>"; };
+		77A72ACA1C55C314009BC281 /* Sort.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sort.json; sourceTree = "<group>"; };
+		77A72ACD1C55C46E009BC281 /* SortCatalogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortCatalogs.h; sourceTree = "<group>"; };
+		77A72ACE1C55C46E009BC281 /* SortCatalogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortCatalogs.m; sourceTree = "<group>"; };
+		77A72ACF1C55C46E009BC281 /* SortModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortModel.h; sourceTree = "<group>"; };
+		77A72AD01C55C46E009BC281 /* SortModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortModel.m; sourceTree = "<group>"; };
+		77A72AD11C55C46E009BC281 /* SortResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortResult.h; sourceTree = "<group>"; };
+		77A72AD21C55C46E009BC281 /* SortResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortResult.m; sourceTree = "<group>"; };
+		77A72AD31C55C46E009BC281 /* SortTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTags.h; sourceTree = "<group>"; };
+		77A72AD41C55C46E009BC281 /* SortTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTags.m; sourceTree = "<group>"; };
 		BDCF24F3DCC95F68970F3B43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -329,6 +349,8 @@
 		779718921C51BF2C00C773B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77A72AD91C55C547009BC281 /* MainModel */,
+				77A72ACC1C55C45C009BC281 /* SortModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,6 +453,8 @@
 			children = (
 				77417F5E1C52103D0062D68B /* STConst.h */,
 				77417F5F1C52103D0062D68B /* STConst.m */,
+				77A72AC41C55ACB5009BC281 /* STInfo.h */,
+				77A72AC51C55ACB5009BC281 /* STInfo.m */,
 				77417F611C52104D0062D68B /* STUI.h */,
 				77417F621C52104D0062D68B /* STUI.m */,
 			);
@@ -453,6 +477,31 @@
 				77417F651C52142C0062D68B /* STBarButtonItem.m */,
 			);
 			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		77A72ACC1C55C45C009BC281 /* SortModel */ = {
+			isa = PBXGroup;
+			children = (
+				77A72ACF1C55C46E009BC281 /* SortModel.h */,
+				77A72AD01C55C46E009BC281 /* SortModel.m */,
+				77A72AD11C55C46E009BC281 /* SortResult.h */,
+				77A72AD21C55C46E009BC281 /* SortResult.m */,
+				77A72ACD1C55C46E009BC281 /* SortCatalogs.h */,
+				77A72ACE1C55C46E009BC281 /* SortCatalogs.m */,
+				77A72AD31C55C46E009BC281 /* SortTags.h */,
+				77A72AD41C55C46E009BC281 /* SortTags.m */,
+				77A72ACA1C55C314009BC281 /* Sort.json */,
+			);
+			name = SortModel;
+			sourceTree = "<group>";
+		};
+		77A72AD91C55C547009BC281 /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				77A72AC71C55B284009BC281 /* MainApi.h */,
+				77A72AC81C55B284009BC281 /* MainApi.m */,
+			);
+			name = MainModel;
 			sourceTree = "<group>";
 		};
 		BC13903D69018581A63BFB30 /* Frameworks */ = {
@@ -574,6 +623,7 @@
 			files = (
 				778BD6401C50D7AC0007A1E1 /* Assets.xcassets in Resources */,
 				77417F421C51FAD70062D68B /* TabBar.json in Resources */,
+				77A72ACB1C55C314009BC281 /* Sort.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,22 +696,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A72AD61C55C46E009BC281 /* SortModel.m in Sources */,
 				77417F4E1C51FC090062D68B /* MyController.m in Sources */,
 				779718A31C51C01800C773B9 /* MainController.m in Sources */,
+				77A72AD81C55C46E009BC281 /* SortTags.m in Sources */,
 				77417F4B1C51FBFD0062D68B /* CartController.m in Sources */,
+				77A72AD51C55C46E009BC281 /* SortCatalogs.m in Sources */,
 				778BD6351C50D7AC0007A1E1 /* AppDelegate.m in Sources */,
 				779A93D51C52B29C006310A9 /* UIButton+ST.m in Sources */,
 				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
 				77417F511C5200760062D68B /* TabBar.m in Sources */,
 				77417F601C52103D0062D68B /* STConst.m in Sources */,
+				77A72AD71C55C46E009BC281 /* SortResult.m in Sources */,
 				77417F691C5216EE0062D68B /* SortController.m in Sources */,
 				77417F5D1C520FE80062D68B /* STColor.m in Sources */,
 				77417F481C51FBEB0062D68B /* MallController.m in Sources */,
 				779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */,
 				77417F631C52104D0062D68B /* STUI.m in Sources */,
 				77417F541C5208A60062D68B /* NavigationController.m in Sources */,
+				77A72AC91C55B284009BC281 /* MainApi.m in Sources */,
 				77417F661C52142C0062D68B /* STBarButtonItem.m in Sources */,
 				778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */,
+				77A72AC61C55ACB5009BC281 /* STInfo.m in Sources */,
 				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,7 +843,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = /Users/ST/STFood/STFood/STFood/Food.pch;
 				INFOPLIST_FILE = STFood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -803,7 +859,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = /Users/ST/STFood/STFood/STFood/Food.pch;
 				INFOPLIST_FILE = STFood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shentian.STFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
