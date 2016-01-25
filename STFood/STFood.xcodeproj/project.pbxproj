@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		21C20911046943DD26738372 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCF24F3DCC95F68970F3B43 /* libPods.a */; };
+		773C15171C55FC6400EDAB68 /* RecipeHome.json in Resources */ = {isa = PBXBuildFile; fileRef = 773C15161C55FC6400EDAB68 /* RecipeHome.json */; };
+		773C152A1C55FD1300EDAB68 /* RecipeHomeBs.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15191C55FD1300EDAB68 /* RecipeHomeBs.m */; };
+		773C152B1C55FD1300EDAB68 /* RecipeHomeFt.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C151B1C55FD1300EDAB68 /* RecipeHomeFt.m */; };
+		773C152C1C55FD1300EDAB68 /* RecipeHomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C151D1C55FD1300EDAB68 /* RecipeHomeHeader.m */; };
+		773C152D1C55FD1300EDAB68 /* RecipeHomeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C151F1C55FD1300EDAB68 /* RecipeHomeList.m */; };
+		773C152E1C55FD1300EDAB68 /* RecipeHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15211C55FD1300EDAB68 /* RecipeHomeModel.m */; };
+		773C152F1C55FD1300EDAB68 /* RecipeHomeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15231C55FD1300EDAB68 /* RecipeHomeResult.m */; };
+		773C15301C55FD1300EDAB68 /* RecipeHomeFm.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15251C55FD1300EDAB68 /* RecipeHomeFm.m */; };
+		773C15311C55FD1300EDAB68 /* RecipeHomeFts.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15271C55FD1300EDAB68 /* RecipeHomeFts.m */; };
+		773C15321C55FD1300EDAB68 /* RecipeHomeRr.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15291C55FD1300EDAB68 /* RecipeHomeRr.m */; };
+		773C15351C56021500EDAB68 /* RecipeHomeR.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15341C56021500EDAB68 /* RecipeHomeR.m */; };
+		773C15381C5603E300EDAB68 /* RecipeHomeA.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15371C5603E300EDAB68 /* RecipeHomeA.m */; };
+		773C153B1C5605A600EDAB68 /* RecipeHomeTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C153A1C5605A600EDAB68 /* RecipeHomeTags.m */; };
+		773C153E1C5606FA00EDAB68 /* RecipeHomeM.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C153D1C5606FA00EDAB68 /* RecipeHomeM.m */; };
+		773C15411C5607B300EDAB68 /* RecipeHomeIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 773C15401C5607B300EDAB68 /* RecipeHomeIs.m */; };
 		77417F421C51FAD70062D68B /* TabBar.json in Resources */ = {isa = PBXBuildFile; fileRef = 77417F411C51FAD70062D68B /* TabBar.json */; };
 		77417F451C51FBC00062D68B /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F441C51FBC00062D68B /* EventsController.m */; };
 		77417F481C51FBEB0062D68B /* MallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77417F471C51FBEB0062D68B /* MallController.m */; };
@@ -58,6 +73,35 @@
 /* Begin PBXFileReference section */
 		19CBD985BBF6F0E337C2FD75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2F8978882A6BC260AD3273C8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		773C15161C55FC6400EDAB68 /* RecipeHome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RecipeHome.json; sourceTree = "<group>"; };
+		773C15181C55FD1300EDAB68 /* RecipeHomeBs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeBs.h; path = RecipeHome/RecipeHomeBs.h; sourceTree = "<group>"; };
+		773C15191C55FD1300EDAB68 /* RecipeHomeBs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeBs.m; path = RecipeHome/RecipeHomeBs.m; sourceTree = "<group>"; };
+		773C151A1C55FD1300EDAB68 /* RecipeHomeFt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeFt.h; path = RecipeHome/RecipeHomeFt.h; sourceTree = "<group>"; };
+		773C151B1C55FD1300EDAB68 /* RecipeHomeFt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeFt.m; path = RecipeHome/RecipeHomeFt.m; sourceTree = "<group>"; };
+		773C151C1C55FD1300EDAB68 /* RecipeHomeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeHeader.h; path = RecipeHome/RecipeHomeHeader.h; sourceTree = "<group>"; };
+		773C151D1C55FD1300EDAB68 /* RecipeHomeHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeHeader.m; path = RecipeHome/RecipeHomeHeader.m; sourceTree = "<group>"; };
+		773C151E1C55FD1300EDAB68 /* RecipeHomeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeList.h; path = RecipeHome/RecipeHomeList.h; sourceTree = "<group>"; };
+		773C151F1C55FD1300EDAB68 /* RecipeHomeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeList.m; path = RecipeHome/RecipeHomeList.m; sourceTree = "<group>"; };
+		773C15201C55FD1300EDAB68 /* RecipeHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeModel.h; path = RecipeHome/RecipeHomeModel.h; sourceTree = "<group>"; };
+		773C15211C55FD1300EDAB68 /* RecipeHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeModel.m; path = RecipeHome/RecipeHomeModel.m; sourceTree = "<group>"; };
+		773C15221C55FD1300EDAB68 /* RecipeHomeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeResult.h; path = RecipeHome/RecipeHomeResult.h; sourceTree = "<group>"; };
+		773C15231C55FD1300EDAB68 /* RecipeHomeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeResult.m; path = RecipeHome/RecipeHomeResult.m; sourceTree = "<group>"; };
+		773C15241C55FD1300EDAB68 /* RecipeHomeFm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeFm.h; path = RecipeHome/RecipeHomeFm.h; sourceTree = "<group>"; };
+		773C15251C55FD1300EDAB68 /* RecipeHomeFm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeFm.m; path = RecipeHome/RecipeHomeFm.m; sourceTree = "<group>"; };
+		773C15261C55FD1300EDAB68 /* RecipeHomeFts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeFts.h; path = RecipeHome/RecipeHomeFts.h; sourceTree = "<group>"; };
+		773C15271C55FD1300EDAB68 /* RecipeHomeFts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeFts.m; path = RecipeHome/RecipeHomeFts.m; sourceTree = "<group>"; };
+		773C15281C55FD1300EDAB68 /* RecipeHomeRr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeHomeRr.h; path = RecipeHome/RecipeHomeRr.h; sourceTree = "<group>"; };
+		773C15291C55FD1300EDAB68 /* RecipeHomeRr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeHomeRr.m; path = RecipeHome/RecipeHomeRr.m; sourceTree = "<group>"; };
+		773C15331C56021500EDAB68 /* RecipeHomeR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeR.h; sourceTree = "<group>"; };
+		773C15341C56021500EDAB68 /* RecipeHomeR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeR.m; sourceTree = "<group>"; };
+		773C15361C5603E300EDAB68 /* RecipeHomeA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeA.h; sourceTree = "<group>"; };
+		773C15371C5603E300EDAB68 /* RecipeHomeA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeA.m; sourceTree = "<group>"; };
+		773C15391C5605A600EDAB68 /* RecipeHomeTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeTags.h; sourceTree = "<group>"; };
+		773C153A1C5605A600EDAB68 /* RecipeHomeTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeTags.m; sourceTree = "<group>"; };
+		773C153C1C5606FA00EDAB68 /* RecipeHomeM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeM.h; sourceTree = "<group>"; };
+		773C153D1C5606FA00EDAB68 /* RecipeHomeM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeM.m; sourceTree = "<group>"; };
+		773C153F1C5607B300EDAB68 /* RecipeHomeIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeHomeIs.h; sourceTree = "<group>"; };
+		773C15401C5607B300EDAB68 /* RecipeHomeIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeHomeIs.m; sourceTree = "<group>"; };
 		77417F411C51FAD70062D68B /* TabBar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TabBar.json; sourceTree = "<group>"; };
 		77417F431C51FBC00062D68B /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
 		77417F441C51FBC00062D68B /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
@@ -150,6 +194,42 @@
 				19CBD985BBF6F0E337C2FD75 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		773C15151C55FBF100EDAB68 /* RecipeHomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				773C15181C55FD1300EDAB68 /* RecipeHomeBs.h */,
+				773C15191C55FD1300EDAB68 /* RecipeHomeBs.m */,
+				773C151A1C55FD1300EDAB68 /* RecipeHomeFt.h */,
+				773C151B1C55FD1300EDAB68 /* RecipeHomeFt.m */,
+				773C151C1C55FD1300EDAB68 /* RecipeHomeHeader.h */,
+				773C151D1C55FD1300EDAB68 /* RecipeHomeHeader.m */,
+				773C151E1C55FD1300EDAB68 /* RecipeHomeList.h */,
+				773C151F1C55FD1300EDAB68 /* RecipeHomeList.m */,
+				773C15331C56021500EDAB68 /* RecipeHomeR.h */,
+				773C15341C56021500EDAB68 /* RecipeHomeR.m */,
+				773C15361C5603E300EDAB68 /* RecipeHomeA.h */,
+				773C15371C5603E300EDAB68 /* RecipeHomeA.m */,
+				773C15391C5605A600EDAB68 /* RecipeHomeTags.h */,
+				773C153A1C5605A600EDAB68 /* RecipeHomeTags.m */,
+				773C153C1C5606FA00EDAB68 /* RecipeHomeM.h */,
+				773C153D1C5606FA00EDAB68 /* RecipeHomeM.m */,
+				773C153F1C5607B300EDAB68 /* RecipeHomeIs.h */,
+				773C15401C5607B300EDAB68 /* RecipeHomeIs.m */,
+				773C15201C55FD1300EDAB68 /* RecipeHomeModel.h */,
+				773C15211C55FD1300EDAB68 /* RecipeHomeModel.m */,
+				773C15221C55FD1300EDAB68 /* RecipeHomeResult.h */,
+				773C15231C55FD1300EDAB68 /* RecipeHomeResult.m */,
+				773C15241C55FD1300EDAB68 /* RecipeHomeFm.h */,
+				773C15251C55FD1300EDAB68 /* RecipeHomeFm.m */,
+				773C15261C55FD1300EDAB68 /* RecipeHomeFts.h */,
+				773C15271C55FD1300EDAB68 /* RecipeHomeFts.m */,
+				773C15281C55FD1300EDAB68 /* RecipeHomeRr.h */,
+				773C15291C55FD1300EDAB68 /* RecipeHomeRr.m */,
+				773C15161C55FC6400EDAB68 /* RecipeHome.json */,
+			);
+			name = RecipeHomeModel;
 			sourceTree = "<group>";
 		};
 		77417F6A1C521B8A0062D68B /* Assets(资源) */ = {
@@ -349,6 +429,7 @@
 		779718921C51BF2C00C773B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				773C15151C55FBF100EDAB68 /* RecipeHomeModel */,
 				77A72AD91C55C547009BC281 /* MainModel */,
 				77A72ACC1C55C45C009BC281 /* SortModel */,
 			);
@@ -621,6 +702,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773C15171C55FC6400EDAB68 /* RecipeHome.json in Resources */,
 				778BD6401C50D7AC0007A1E1 /* Assets.xcassets in Resources */,
 				77417F421C51FAD70062D68B /* TabBar.json in Resources */,
 				77A72ACB1C55C314009BC281 /* Sort.json in Resources */,
@@ -697,8 +779,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A72AD61C55C46E009BC281 /* SortModel.m in Sources */,
+				773C15411C5607B300EDAB68 /* RecipeHomeIs.m in Sources */,
+				773C15301C55FD1300EDAB68 /* RecipeHomeFm.m in Sources */,
 				77417F4E1C51FC090062D68B /* MyController.m in Sources */,
 				779718A31C51C01800C773B9 /* MainController.m in Sources */,
+				773C15351C56021500EDAB68 /* RecipeHomeR.m in Sources */,
+				773C152C1C55FD1300EDAB68 /* RecipeHomeHeader.m in Sources */,
 				77A72AD81C55C46E009BC281 /* SortTags.m in Sources */,
 				77417F4B1C51FBFD0062D68B /* CartController.m in Sources */,
 				77A72AD51C55C46E009BC281 /* SortCatalogs.m in Sources */,
@@ -707,17 +793,27 @@
 				77417F451C51FBC00062D68B /* EventsController.m in Sources */,
 				77417F511C5200760062D68B /* TabBar.m in Sources */,
 				77417F601C52103D0062D68B /* STConst.m in Sources */,
+				773C15311C55FD1300EDAB68 /* RecipeHomeFts.m in Sources */,
+				773C15321C55FD1300EDAB68 /* RecipeHomeRr.m in Sources */,
+				773C152F1C55FD1300EDAB68 /* RecipeHomeResult.m in Sources */,
 				77A72AD71C55C46E009BC281 /* SortResult.m in Sources */,
 				77417F691C5216EE0062D68B /* SortController.m in Sources */,
 				77417F5D1C520FE80062D68B /* STColor.m in Sources */,
 				77417F481C51FBEB0062D68B /* MallController.m in Sources */,
+				773C152A1C55FD1300EDAB68 /* RecipeHomeBs.m in Sources */,
 				779718A71C51CA8A00C773B9 /* TabBarController.m in Sources */,
 				77417F631C52104D0062D68B /* STUI.m in Sources */,
 				77417F541C5208A60062D68B /* NavigationController.m in Sources */,
 				77A72AC91C55B284009BC281 /* MainApi.m in Sources */,
 				77417F661C52142C0062D68B /* STBarButtonItem.m in Sources */,
+				773C152B1C55FD1300EDAB68 /* RecipeHomeFt.m in Sources */,
+				773C153B1C5605A600EDAB68 /* RecipeHomeTags.m in Sources */,
 				778BD63E1C50D7AC0007A1E1 /* STFood.xcdatamodeld in Sources */,
 				77A72AC61C55ACB5009BC281 /* STInfo.m in Sources */,
+				773C15381C5603E300EDAB68 /* RecipeHomeA.m in Sources */,
+				773C152D1C55FD1300EDAB68 /* RecipeHomeList.m in Sources */,
+				773C152E1C55FD1300EDAB68 /* RecipeHomeModel.m in Sources */,
+				773C153E1C5606FA00EDAB68 /* RecipeHomeM.m in Sources */,
 				778BD6321C50D7AC0007A1E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

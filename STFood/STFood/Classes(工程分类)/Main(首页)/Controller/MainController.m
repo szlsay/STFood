@@ -8,10 +8,10 @@
 
 #import "MainController.h"
 #import "SortController.h"
-
+#import "RecipeHomeModel.h"
 #import "MainApi.h"
 @interface MainController ()
-
+@property (nonatomic, strong, nullable)RecipeHomeModel *model; //
 @end
 
 @implementation MainController
@@ -25,7 +25,9 @@
     self.navigationItem.leftBarButtonItem = [STBarButtonItem barButtonItemWithImageName:@"navi_item_catalogs"
                                                                                  target:self
                                                                                  action:@selector(gotoSortController)];
-    [self setupDishHome];
+//    [self setupDishHome];
+    
+    NSLog(@"%s, %@", __FUNCTION__, self.model);
 }
 
 #pragma mark - --- delegate 视图委托 ---
@@ -51,5 +53,14 @@
 }
 
 #pragma mark - --- getters and setters 属性 ---
-
+- (RecipeHomeModel *)model
+{
+    if (!_model) {
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"RecipeHome" ofType:@"json"];
+        NSData *data = [NSData dataWithContentsOfFile:path options:NSDataReadingMappedIfSafe error:nil];
+        NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        _model = [RecipeHomeModel mj_objectWithKeyValues:dictionary];
+    }
+    return _model;
+}
 @end

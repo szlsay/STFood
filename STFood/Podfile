@@ -1,6 +1,7 @@
 platform :ios, ‘7.0’
-pod 'MJRefresh', '~> 2.0.2'
-pod 'MJExtension', '~> 2.3.6'
+
+pod 'MJRefresh', '~> 3.1.0'
+pod 'MJExtension', '~> 3.0.10'
 
 pod 'YTKNetwork', '~> 0.5.0'
 

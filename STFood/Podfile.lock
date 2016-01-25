@@ -26,8 +26,8 @@ PODS:
   - AMapSearch (3.2.0)
   - LxDBAnything (1.1.0)
   - Masonry (0.6.4)
-  - MJExtension (2.3.8)
-  - MJRefresh (2.0.4)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
   - pop (1.0.8)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -51,8 +51,8 @@ DEPENDENCIES:
   - AMapSearch
   - LxDBAnything (~> 1.1.0)
   - Masonry (~> 0.6.4)
-  - MJExtension (~> 2.3.6)
-  - MJRefresh (~> 2.0.2)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
   - pop (~> 1.0.8)
   - ReactiveCocoa (= 2.5)
   - SDWebImage (~> 3.7)
@@ -66,8 +66,8 @@ SPEC CHECKSUMS:
   AMapSearch: a885f0702578a441a22cb66fa74f8918c6d19e6f
   LxDBAnything: 154a2ad1ae32e70355d886b5443260543bb60c71
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
-  MJExtension: d83b55e6cb95c6274388539c782386b56f394a6d
-  MJRefresh: ea153717001d3c02444bd22b75c111d2937d2104
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
